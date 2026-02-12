@@ -13,6 +13,7 @@ class CategoryFactory extends Factory
     {
         return [
             'name' => $this->faker->unique()->word(),
+            'icon_path' => 'icons/' . $this->faker->word() . '.svg',
         ];
     }
 }

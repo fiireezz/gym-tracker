@@ -17,12 +17,12 @@ class DatabaseSeeder extends Seeder
 
         // Crear categorías específicas
         $categories = [
-            ['name' => 'Pecho'],
-            ['name' => 'Espalda'],
-            ['name' => 'Pierna'],
-            ['name' => 'Hombro'],
-            ['name' => 'Brazos'],
-            ['name' => 'Cardio'],
+            ['name' => 'Pecho', 'icon_path' => 'icons/chest.svg'],
+            ['name' => 'Espalda', 'icon_path' => 'icons/back.svg'],
+            ['name' => 'Pierna', 'icon_path' => 'icons/legs.svg'],
+            ['name' => 'Hombro', 'icon_path' => 'icons/shoulder.svg'],
+            ['name' => 'Brazos', 'icon_path' => 'icons/arms.svg'],
+            ['name' => 'Cardio', 'icon_path' => 'icons/cardio.svg'],
         ];
 
         $createdCategories = [];
